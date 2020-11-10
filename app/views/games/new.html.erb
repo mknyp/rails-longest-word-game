@@ -1,0 +1,10 @@
+<h1>******** Welcome to the longest word-game!********</h1>
+  <h2>Here is your grid:</h2>
+    <p1><%= @letters %></p1>
+    <br>
+    <p1>*****************************************************</p1>
+  <form action="/score" method="post">
+    <input type="text" name="word" placeholder="What is your longest word?">
+    <input type="submit" value ="Submit final answer!">
+  </form>
+
